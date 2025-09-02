@@ -7,7 +7,9 @@ authors = [
     { name = "shaikkhajaibrahim", email = "shaikkhajaibrahim@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "fastapi>=0.116.1",
+]
 
 [project.scripts]
 first-from-local = "first_from_local:main"
